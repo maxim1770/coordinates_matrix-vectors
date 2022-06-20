@@ -67,16 +67,36 @@
 
 <h3>Комментарии к этой лабе (к решению этой лабы в этом проекте):</h3>
 <p>
- <b>все работает, все запускается</b> <br/>
-  Входные данные: <br/>
+ <b>все работает, все запускается</b> <br/><br/>
+  <b>Входные данные:</b> <br/>
   <pre>
     cout << "Enter count of dots (N): "; 
     int N, K; 
     cin >> N;
     cout << "Enter count of dots in one line (K): ";
     cin >> K; 
-   </pre> <br/>
-   Ввод
+   </pre>
+   После нужно ввести координаты точек:
+    <pre>
+   vector< vector<int> > enter(int K)
+    {
+      vector< vector<int> > A(2, vector<int>(K));
+      for (int j = 0; j < K; j++)
+      {
+          cin >> A[0][j] >> A[1][j];
+      }
+      return A;
+    }
+    </pre>
+    Например: <br/>
+    4 <br/>
+    2 <br/>
+    1 0 <br/>
+    0 1 <br/>
+    2 3 <br/>
+    2 4 <br/> 
+    Выходные данные: <br/> 
+    (1,0) (0,1)<br/> 
 </p>
 
 <hr />
