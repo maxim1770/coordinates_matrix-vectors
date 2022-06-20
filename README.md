@@ -46,18 +46,18 @@
 <h3>Тема лабы:</h3>
 <b>Темы:</b> 
 <p>
-  Координаты, точки, <b>центр тяжести</b>, множество точек, прямые <br/> <br/>
+  Координаты, точки, <b>центр тяжести</b>, множество точек, прямые <br/> 
   
   Координаты - вектор векторов
 </p>
-<b>Используемые объекты:</b>
- #include <vector> - <br/>
- vector< vector<int> > Name(2, vector<int>(K)); <br/>
- vector.resize(); <br/>
- vector.clear(); <br/><br/>
+<b>Используемые объекты:</b> <br/>
+ <code>#include < vector ></code> -  <br/>
+ <code>vector< vector<int> > Name(2, vector<int>(K));</code> <br/>
+ <code>vector.resize();</code> <br/>
+ <code>vector.clear();</code> <br/><br/> 
   
- #include <math.h> - <br/>
-  sqrt() <br/>
+ <code>#include <math.h></code> - <br/>
+  <code>sqrt()</code> <br/>
   
 <p>
   
@@ -68,6 +68,15 @@
 <h3>Комментарии к этой лабе (к решению этой лабы в этом проекте):</h3>
 <p>
  <b>все работает, все запускается</b> <br/>
+  Входные данные: <br/>
+  <pre>
+    cout << "Enter count of dots (N): "; 
+    int N, K; 
+    cin >> N;
+    cout << "Enter count of dots in one line (K): ";
+    cin >> K; 
+   </pre> <br/>
+   Ввод
 </p>
 
 <hr />
